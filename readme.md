@@ -48,7 +48,7 @@ To run the project locally in Ionic, follow these steps:
 ```bash
 # Clone the repository
 git clone https://github.com/Danypoz1986/apiApp-my-movie-app-
-cd my-movie-app
+cd apiApp-my-movie-app-
 
 # Install dependencies
 npm install
