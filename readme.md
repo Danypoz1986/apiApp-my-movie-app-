@@ -97,6 +97,7 @@ The app is deployed on **Netlify** and can be accessed at:
 - **OMDb API** – For providing movie data
 - **Ionic Framework** – For UI components
 - **Simon Grimm's YouTube Tutorial** – Guide for building the app
+- **ChatGPT AI Assistance** – Helped with coding guidance, debugging, and structuring the project.
 
 ## Author
 Developed by **Daniel Pozzoli** 🚀
