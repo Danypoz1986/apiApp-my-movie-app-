@@ -1,4 +1,4 @@
-# Api App (My Movie App)
+# Api App (My Movie App)📽️
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
