@@ -62,7 +62,7 @@ The app will be available at `http://localhost:8100`.
 The app fetches data from the **OMDb API** using two main functions:
 ### Search Movies
 Fetches a list of movies, series, or episodes based on the search term and selected type.
-```bash
+```typescript
 const searchData = async (title: string, type: SearchType): Promise<searchResult[] | searchError> => {
   const result = await fetch(`https://www.omdbapi.com/?s=${encodeURI(title)}&type=${type}&apikey=6d6d09e7`);
   return result.json();
@@ -70,7 +70,7 @@ const searchData = async (title: string, type: SearchType): Promise<searchResult
 ```
 ### Get Movie Details
 Fetches detailed information about a specific movie by IMDb ID.
-```bash
+```typescript
 const getDetails = async (id: string): Promise<DetailsResult> => {
   const result = await fetch(`https://www.omdbapi.com/?i=${id}&plot=full&apikey=6d6d09e7`);
   return result.json();
